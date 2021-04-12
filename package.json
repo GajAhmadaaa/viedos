@@ -1,0 +1,21 @@
+{
+  "name": "pideo",
+  "version": "1.0.0",
+  "description": "pideo don",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+	"start": "NODE_ENV=production node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "web"
+  ],
+  "author": "nopladi",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "ytdl-core": "^4.5.0"
+  }
+}
