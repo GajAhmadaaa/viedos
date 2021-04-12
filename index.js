@@ -7,7 +7,7 @@ app.use('/static', express.static('./static'));
 app.use('/assets', express.static('./assets'));
 
 app.listen(PORT, () => { 
-    console.log("> Listining on http://localhost:${PORT}");
+    console.log(`> Listining on http://localhost:${PORT}`);
 });
 
 app.get('/', (req, res) => { 
