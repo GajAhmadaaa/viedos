@@ -16,7 +16,6 @@
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.1",
-    "m3u8stream": "^0.8.4",
     "ytdl-core": "^4.8.3"
-  },
+  }
 }
